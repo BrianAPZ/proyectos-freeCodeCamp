@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+    <title>app de dbz</title>
+    <link rel="stylesheet" href="./appdbz.css">
+  </head>
+  <body>
+    <main>
+      <h1 class="letra">wallpaper dragon ball</h1>
+      <section>
+        <h2 class="letra">bienvenidos a la galeria de DragonBall</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p class="letra">queres ver mas <a target="_blank" href="">Imagenes DragonBall</a> en tu galeria.</p>
+        <div id="g1">
+           <a href="https://dragonball.com"><img src="https://i.pinimg.com/564x/38/8c/76/388c76851b537412782cfa42409c5f37.jpg"/>
+        </div>
+      <section>
+        <h2 class="letra">Lista de Personajes</h2>
+        <h3 class="letra">personajes principales</h3>
+        <ul class="letra">
+          <li>Goku</li>
+          <li>Vegeta</li>
+          <li>piccolo</li>
+          <li>Gohan</li>
+          <li>Trunks</li>
+          <li>Goten</li>
+        </ul>
+        <figure>
+          <div class="g2">
+            <img src="https://i.pinimg.com/564x/36/8d/e8/368de877d2d05a7d8e081c99fd04bfef.jpg" alt="A slice of lasagna on a plate.">
+          </div>
+          <figcaption class="letra">niveles de <em>poder</em> segun el personaje.</figcaption>  
+        </figure>
+        <h3 class="letra">sagas de DragonBall:</h3>
+        <ol class="letra">
+          <li>saga saiyan</li>
+          <li>saga de freezer</li>
+          <li>saga de los Androides</li>
+          <li>saga de Cell</li>
+          <li>saga de Mayin Boo</li>
+        </ol>
+        <figure>
+          <div>
+          <img src="https://i.pinimg.com/564x/3d/c8/2e/3dc82e134907f353ef19e6246a2f5b80.jpg"  alt="Five cats looking around a field."><img src="https://i.pinimg.com/564x/2a/36/a4/2a36a4ca8f6553a57d483cea879fdca7.jpg">
+          </div>
+          <figcaption class="letra">todos <strong>guerreros z</strong> y sus respectivos enemigos.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
